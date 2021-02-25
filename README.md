@@ -16,9 +16,9 @@ You may edit this as you like as this is a public release
 - Build in Dev Tools // Commands
 
 # Commands
-- getpos -- Console Logs Current Coords
-- coords -- Displays Current Coords
-- clear -- Clears all weapons
+- /getpos -- Console Logs Current Coords
+- /coords -- Displays Current Coords
+- /clear -- Clears all weapons
 
 
 # Config
@@ -36,5 +36,5 @@ CWConfig.Server.recoil = false -- Enables Recoil for all guns and disables cross
 
 Contact me if you run into any issues.
 
-DEVELOPER: Carter
-DISCORD: BigMan#2118
+-DEVELOPER: Carter
+-DISCORD: BigMan#2118
