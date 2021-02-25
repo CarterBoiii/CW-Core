@@ -34,6 +34,13 @@ CWConfig.Server.discord = "https://discord.gg/Ttr6fY6"
 CWConfig.Server.recoil = false -- Enables Recoil for all guns and disables crosshair
 ```
 
+Put this into your server.cfg to give yourself permission to join the server while its shutdown
+
+```
+add_ace group.admin developer allow
+add_principal identifier.steam:11000013bf4c6dc group.admin
+```
+
 Contact me if you run into any issues.
 
 - DEVELOPER: Carter
