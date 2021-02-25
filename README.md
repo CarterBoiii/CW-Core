@@ -6,7 +6,6 @@ i love to use diferals so you will see them alot for the loading and gather user
 You may edit this as you like as this is a public release
 
 # Features
-``
 - Close the server down to developers only
 - Checks for specific Identifiers
 - Supports steam and rockstar license Identifiers
@@ -15,18 +14,15 @@ You may edit this as you like as this is a public release
 - Optomised to the lowest
 - Discord Rich Presents
 - Build in Dev Tools // Commands
-``
 
 # Commands
-```
 - getpos -- Console Logs Current Coords
 - coords -- Displays Current Coords
 - clear -- Clears all weapons
-```
 
 
 # Config
-``
+```
 CWConfig = {}
 
 CWConfig.Identifier = "steam" -- Options are "steam" or "license"
@@ -36,7 +32,7 @@ CWConfig.Server.closed = false -- Only people with the ( developer ) ace perm wi
 CWConfig.Server.closedReason = "Server is currently in development" 
 CWConfig.Server.discord = "https://discord.gg/Ttr6fY6" 
 CWConfig.Server.recoil = false -- Enables Recoil for all guns and disables crosshair
-``
+```
 
 Contact me if you run into any issues.
 
