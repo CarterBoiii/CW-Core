@@ -36,5 +36,5 @@ CWConfig.Server.recoil = false -- Enables Recoil for all guns and disables cross
 
 Contact me if you run into any issues.
 
--DEVELOPER: Carter
--DISCORD: BigMan#2118
+- DEVELOPER: Carter
+- DISCORD: BigMan#2118
