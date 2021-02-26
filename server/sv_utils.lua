@@ -14,4 +14,3 @@ AddEventHandler("onResourceStart", function(resource)
    Citizen.Wait(800)
    Logger("^1[CW-Core]^0 This script was developed by Carter | BigMan#2118")
 end)
-

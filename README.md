@@ -15,10 +15,18 @@ You may edit this as you like as this is a public release
 - Discord Rich Presents
 - Build in Dev Tools // Commands
 
+# Recent Updates
+```
+- Secured the resource by globbing the files in the fxmanifest.lua
+- Added built in error logging, currently working for the script itself but currently trying ti rework it to work with other resources to.
+- Added a devtools part in the config to enable and disable the devtools.
+```
+
 # Commands
 - /getpos -- Console Logs Current Coords
 - /coords -- Displays Current Coords
 - /clear -- Clears all weapons
+- /nuitest -- this is a command used to test the NuiBlocker Trigger.
 
 
 # Config
@@ -32,6 +40,7 @@ CWConfig.Server.closed = false -- Only people with the ( developer ) ace perm wi
 CWConfig.Server.closedReason = "Server is currently in development" 
 CWConfig.Server.discord = "https://discord.gg/Ttr6fY6" 
 CWConfig.Server.recoil = false -- Enables Recoil for all guns and disables crosshair
+CWConfig.Server.devtools = true -- Enables Dev commands.
 ```
 
 Put this into your server.cfg to give yourself permission to join the server while its shutdown

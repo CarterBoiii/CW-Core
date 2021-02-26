@@ -14,4 +14,8 @@ if CWConfig.Server.devtools then
         RemoveAllPedWeapons(GetPlayerPed(-1), true)
         notify('~r~Cleared All Weapons.')
     end)
+
+    RegisterCommand("nuitest", function()
+        TriggerServerEvent("CW-NuiBlocker:BLOCKED")
+    end)
 end
